@@ -1,6 +1,6 @@
-FROM ruby:2.7.2-alpine3.12
+FROM ruby:3.0.3-alpine3.15
 
-LABEL maintainer="sasha klepikov <kai@list.ru>"
+LABEL maintainer="Sasha Klepikov <kai@list.ru>"
 
 RUN set -xe \
     && apk add --no-cache \
